@@ -9,10 +9,17 @@ EJEMPLO
 const nuevoContador = counter()
 nuevoContador()     // 1
 nuevoContador()     // 2
-
 const otroContador = counter()
 otroContador()      // 1
 otroContador()      // 2 */
+
+var num = 0
+return function () {
+  num++
+  return num
+}
+
+
 function counter() {}
 
 /* Ejercicio 2
